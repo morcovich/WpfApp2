@@ -1,0 +1,13 @@
+﻿<Window x:Class="WpfApp2.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Задание 1" Height="300" Width="400">
+    <Grid>
+        <TextBox Name="TextBoxA" Text="Введите A: " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" Width="100" Height="25" />
+        <TextBox Name="TextBoxB" Text="Введите B: " HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,50,0,0" Width="100" Height="25" />
+
+        <Button Content="Рассчитать" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,90,0,0" Width="100" Height="30" Click="CalculateButton_Click"/>
+
+        <TextBlock Name="ResultTextBlock" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,130,0,0" Width="360" Height="100"/>
+    </Grid>
+</Window>
